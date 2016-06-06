@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/s_scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#cffffff7"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/shequ_bg"
+        />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/s_userIv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@id/bg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/touxiang"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/s_btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_btn"
+        android:layout_marginTop="5dp"
+        android:text="说点什么吧"
+        />
+    <firstgroup.com.view.SelfListView
+        android:id="@+id/s_allTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </firstgroup.com.view.SelfListView>
+
+
+
+</LinearLayout>
+</ScrollView>

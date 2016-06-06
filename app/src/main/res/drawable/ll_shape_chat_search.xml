@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--corners 为形状创建圆角，只有当形状为矩形时才应用。 android:radius设置圆角的半径  值越大表示越圆-->
+    <corners android:radius="10dp"/>
+    <!-- stroke 描边 android:width="2dp"表示描边线的宽度   android:color="#00aa00" 表示描边线的颜色-->
+    <stroke android:width="2dp" android:color="#0000"/>
+    <!--gradient 为形状指定渐变颜色。
+   android:angle  渐变的角度，度数，0度为从左到右，90度是从底到上，必须是45度的倍数，默认为0. -->
+<solid android:color="#ffffff"/>
+</shape>

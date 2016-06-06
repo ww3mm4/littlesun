@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/include_main"
+        layout="@layout/register_layout" />
+    <firstgroup.com.view.PullDoorView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:textColor="@color/text_orang_color"
+                android:text="请注意"
+                android:gravity="center"
+                app:layout_textSizePercent="8%"
+                app:layout_heightPercent="20%h"
+                app:layout_widthPercent="80%w"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:textColor="@color/text_orang_color"
+                android:text="文章甚至表示,埃尔克森原则上已经同意加盟加拉塔萨雷,加拉塔萨雷未来几天将和恒大联系"
+                app:layout_textSizePercent="5%"
+                app:layout_heightPercent="40%h"
+                app:layout_widthPercent="95%w"/>
+            <TextView
+                app:layout_marginTopPercent="5%h"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="不同意"
+                android:background="@drawable/button"
+                android:gravity="center"
+                app:layout_textSizePercent="5%"
+                android:textColor="#fff"
+                android:id="@+id/regist_back"
+                android:layout_gravity="center"
+                app:layout_heightPercent="10%h"
+                app:layout_widthPercent="60%w"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:id="@+id/register_biaoti"
+                android:textColor="@color/text_orang_color"
+                android:text="向上滑动进入注册"
+                android:gravity="center"
+                app:layout_textSizePercent="5%"
+                app:layout_heightPercent="20%h"
+                app:layout_widthPercent="80%w"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </firstgroup.com.view.PullDoorView>
+</FrameLayout>
+
+

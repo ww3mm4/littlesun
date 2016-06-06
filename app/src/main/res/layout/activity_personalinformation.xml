@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/shequ_bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login_logo"
+        android:id="@+id/pf_iv"
+        app:layout_marginTopPercent="5%h"
+        app:layout_heightPercent="40%w"
+        app:layout_widthPercent="40%w"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_marginTopPercent="5%h"
+        android:layout_gravity="center"
+        app:layout_heightPercent="15%w"
+        android:text="奥特曼"
+        android:id="@+id/pf_name"
+        android:gravity="center"
+        android:textColor="@color/baise"
+        app:layout_textSizePercent="8%"
+        app:layout_widthPercent="80%w"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/pf_ms"
+        android:layout_gravity="center"
+        app:layout_heightPercent="15%w"
+        android:text="打怪兽"
+        android:gravity="center"
+        android:textColor="@color/baise"
+        app:layout_textSizePercent="5%"
+        app:layout_widthPercent="80%w"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pf_2vm"
+        android:layout_gravity="center"/>
+</com.zhy.android.percent.support.PercentLinearLayout>

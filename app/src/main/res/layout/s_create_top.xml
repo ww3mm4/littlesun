@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/s_createTopicTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="标题"
+        />
+    <EditText
+        android:id="@+id/s_createTopicContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="内容"
+        />
+    <Button
+        android:id="@+id/s_createTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_btn"
+        android:text="发表"/>
+    <GridView
+        android:id="@+id/s_creategridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="4"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center" >
+    </GridView>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#cffffff7"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/p_tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/p_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/touxiang" />
+
+    <TextView
+        android:id="@+id/p_tvProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="点击图片换头像" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="个性签名:"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/p_tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        />
+    <Button
+        android:id="@+id/p_btnChangeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_btn"
+        android:text="改昵称/个性签名"
+        android:textColor="@color/text_orang_color" />
+    <Button
+        android:id="@+id/p_btnSaveChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_btn"
+        android:text="保存修改"
+        android:textColor="@color/text_orang_color" />
+    <Button
+        android:id="@+id/p_btnCloseSound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_btn"
+        android:text="关闭声音"
+        android:textColor="@color/text_orang_color" />
+    <Button
+        android:id="@+id/p_btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_btn"
+        android:text="退出登录"
+        android:textColor="@color/text_orang_color" />
+
+</LinearLayout>
+</ScrollView>
