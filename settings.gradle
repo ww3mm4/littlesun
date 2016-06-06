@@ -1,1 +1,1 @@
-include ':app', ':app3', ':tipsview', ':actionsheet1', ':app11'
+include ':app'
